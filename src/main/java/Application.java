@@ -3,6 +3,17 @@ import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) throws IOException {
+        /*Read strings from console. Write those strings in a file. Stop when input string is 'exit';
+Input (example)
+> I love
+> ITeahome`
+> courses.
+> exit
+
+Output -> console2file.txt
+I love ITeahome courses.
+
+ */
         Scanner scannerKeyboard = null;
         Writer outputStream = null;
         try {
@@ -21,20 +32,3 @@ public class Application {
     }
 }
 
-/*Read strings from console. Write those strings in a file. Stop when input string is 'exit';
-
-Input (example)
-
-> I love
-
-> ITeahome
-
-> courses.
-
-> exit
-
-Output -> console2file.txt
-
-I love ITeahome courses.
-
- */
